@@ -17,9 +17,6 @@ public class OpenApiConfig {
     @Bean
     public OpenAPI customOpenAPI() {
         // Create contact information
-        Contact contact = new Contact()
-                .email("boutchouangelija@gmail.com")
-                .name("Boutchouang Nathan Elija");
 
         // Create license information
         License mitLicense = new License()
